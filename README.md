@@ -61,7 +61,7 @@ fetch('https://jsonplaceholder.typicode.com/photos/')
   .then(response => response.json())
   .then(json => console.log(json))
 ```
-6. Titta på datats typer i webbläsarens konsol.
+6. Titta på datats typer i webbläsarens konsol. Eller på länken ovan.
 7. Lagra sedan datat i en data variabel som heter **photo**.
 8. Presentera **photo** i html:en med lämpliga taggar.
 
@@ -87,8 +87,8 @@ Detta görs genom att byta bakgrundsfärg på div-taggen.
 
 ### Resultat
 
-# Det här är en titel<br><br>
-Det här är en beskrivningen <br><br>
+## Det här är en titel
+Det här är en beskrivningen
 
 
 ## Fråga 7 – Komponent kommunikation
