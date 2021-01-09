@@ -61,9 +61,9 @@ fetch('https://jsonplaceholder.typicode.com/photos/')
   .then(response => response.json())
   .then(json => console.log(json))
 ```
-2. Titta på datats typer i webbläsarens konsol.
-3. Lagra sedan datat i en data variabel som heter **photo**.
-4. Presentera **photo** i html:en med lämpliga taggar.
+6. Titta på datats typer i webbläsarens konsol.
+7. Lagra sedan datat i en data variabel som heter **photo**.
+8. Presentera **photo** i html:en med lämpliga taggar.
 
 ### Resultat
 ![Uppgift4](./assets/uppgift4.gif)
