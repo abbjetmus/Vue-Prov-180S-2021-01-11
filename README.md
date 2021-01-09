@@ -116,8 +116,12 @@ selectedCity.<br>
 
 ## Fråga 8 – Life-cycle-hooks
 1. Skapa 3 stycken olika life-cycle-hooks.
-2. Beroende på vilken ordning som de körs när en vue-komponent laddas in i webbläsaren skriv ut från life-cycle-hooken till konsolen *Jag körs [först|mellan|sist]!*.
+2. Beroende på vilken ordning som de körs när en vue-komponent laddas in i webbläsaren skriv ut från life-cycle-hooken till konsolen<br><br>
+*Jag körs först!*<br>
+*Jag körs mellan!*<br>
+*Jag körs sist!*<br><br>
 
+Använder du en life-cycle hook som inte körs när komponenten skapas räcker det med att den finns i koden.
 ### Resultat
 ![Uppgift8](./assets/Uppgift8.PNG)
 
