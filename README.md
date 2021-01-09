@@ -48,7 +48,7 @@ du väljer själv om du vill använda <**ul**> unorderd-list eller <**ol**> orde
 3. Visa sedan resultatet som fullständigt namn med valfria taggar.
 
 ### Resultat
-![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift3.gif)
+![Uppgift3](https://github.com/abbjetmus/Vue-Prov-180S-2021-01-11/blob/master/assets/uppgift3.gif)
 
 ## Fråga 4 – Watch 
 1. Skapa en data variabel med namnet **id**:
@@ -66,7 +66,7 @@ fetch('https://jsonplaceholder.typicode.com/photos/')
 4. Presentera **photo** i html:en med lämpliga taggar.
 
 ### Resultat
-![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift4.gif)
+![Uppgift4](https://github.com/abbjetmus/Vue-Prov-180S-2021-01-11/blob/master/assets/uppgift4.gif)
 
 ## Fråga 5 – Style bindning
 Du har fått en div-tagg med en t-shirt som bakgrundsbild. Under den finns det 4 knappar **buttons**.<br>
@@ -77,7 +77,7 @@ Detta görs genom att byta bakgrundsfärg på div-taggen.
 3. Använd style-binding på div-taggen så att den binder till color data-variabeln och sätter bakgrundsfärgen.
 
 ### Resultat
-![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift5.gif)
+![Uppgift5](https://github.com/abbjetmus/Vue-Prov-180S-2021-01-11/blob/master/assets/uppgift5.gif)
 
 ### Fråga 6 – Slots 
 1. Skapa en komponent som heter **postcomponent**. 
@@ -112,12 +112,12 @@ selectedCity.<br>
 4. **selectedCity** ska sedan visas i html med all information.
 
 ### Resultat
-![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift6.gif)
+![Uppgift6](https://github.com/abbjetmus/Vue-Prov-180S-2021-01-11/blob/master/assets/uppgift6.gif)
 
 ## Fråga 8 – Life-cycle-hooks
 1. Skapa 3 stycken olika life-cycle-hooks.
 2. Beroende på vilken ordning som de körs när en vue-komponent laddas in i webbläsaren skriv ut från life-cycle-hooken till konsolen *Jag körs [först|mellan|sist]!*.
 
 ### Resultat
-![](https://github.com/abbjetmus/vue-prov-2020-12-08/blob/main/uppgift8.png)
+![Uppgift8](https://github.com/abbjetmus/Vue-Prov-180S-2021-01-11/blob/master/assets/Uppgift8.PNG)
 
