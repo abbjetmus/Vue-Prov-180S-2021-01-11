@@ -1,4 +1,11 @@
 # vue-prov-2021-01-11
+
+## Regler
+* Inte tillåtet att hjälpa varandra på något sätt, räknas som fusk.
+
+* Efter provet kan ni skicka in era svarsfiler som DM till mig via Teams.
+Vet ni hur man zippar så får ni zippa mappen med filerna.<br><br>
+
 Börja med att klona eller ladda ner projektet.
 <br>
 `git clone https://github.com/abbjetmus/Vue-Prov-180S-2021-01-11.git`
