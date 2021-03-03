@@ -32,7 +32,7 @@ Skriv sedan ut texten *Jag bor på Fregattvägen 7A, 749 48 Enköping* med hjäl
 
 ### English
 Create a data object called address that contains the variables/properties **street**, **postcode** and **city**. The object's variables / properties must contain values ​​for your own postal address.<br>
-Then print the text I live on Fregattvägen 7A, 749 48 Enköping using your address object.
+Then print the text *I live on Fregattvägen 7A, 749 48 Enköping* using your address object.
 
 ### Resultat
 **Jag bor på Fregattvägen 7A, 749 48 Enköping**<br><br>
