@@ -26,8 +26,13 @@ var testcomponent = {
 
 ## Fråga 1 - Interpolation
 
+### Swedish
 Skapa ett data objekt som heter **address** som innehåller variablerna/properties **gata**, **postnummer** och **stad**. Objektets variabler/properties ska innehålla värden på din egna post-address.<br>
 Skriv sedan ut texten *Jag bor på Fregattvägen 7A, 749 48 Enköping* med hjälp av ditt address objekt.
+
+### English
+Create a data object called address that contains the variables/properties **street**, **postcode** and **city**. The object's variables / properties must contain values ​​for your own postal address.<br>
+Then print the text I live on Fregattvägen 7A, 749 48 Enköping using your address object.
 
 ### Resultat
 **Jag bor på Fregattvägen 7A, 749 48 Enköping**<br><br>
