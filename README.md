@@ -1,4 +1,4 @@
-# vue-prov-2021-01-11
+# vue-exercieses
 
 ## Regler
 * Inte tillåtet att hjälpa varandra på något sätt, räknas som fusk.
