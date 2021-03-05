@@ -139,7 +139,7 @@ This is done by changing the background color of the div tag.
 1. Create a component named **postcomponent**.
 2. **postcomponent** shall have two named slots named "title" and "description".
 **title** slot should be a <**h1**> tag and **description** slot should be a <**p**> tag.
-Then use **postcomponent** in the '#app'-component and submit two <**div**> tags via the slots with the text *"This is a title"* and *"This is a description"*.
+3. Then use **postcomponent** in the '#app'-component and submit two <**div**> tags via the slots with the text *"This is a title"* and *"This is a description"*.
 
 ### Resultat
 
@@ -184,7 +184,7 @@ Also create a variable named **selectedCity** <br>
 
 2. Then create a component called **cityitem** that takes in a city as props.
 **cityitem** displays the city name along with a button next to it. <br>
-When you click on the button, the city should be sent to the parent component (app component) and assigned to
+3. When you click on the button, the city should be sent to the parent component (app component) and assigned to
 selectedCity. <br>
 4. **selectedCity** should then be displayed in html with all information.
 
