@@ -38,6 +38,8 @@ Then print the text *I live on Fregattvägen 7A, 749 48 Enköping* using your ad
 **Jag bor på Fregattvägen 7A, 749 48 Enköping**<br><br>
 
 ## Fråga 2 - Loopa
+
+### Swedish
 1. Skapa en data variabel med namnet **cities** som är en **array [ ]** och innehåller tre objekt med städer:
 
 ```
@@ -49,15 +51,33 @@ Then print the text *I live on Fregattvägen 7A, 749 48 Enköping* using your ad
 2. Loopa sedan igenom arrayen med städer i en html lista där du skriver ut *namnet - bindestreck länet*,<br>
 du väljer själv om du vill använda <**ul**> unorderd-list eller <**ol**> ordered-list.
 
+### English
+1. Create a data variable named **cities** which is a **array[ ]** and contains three objects with cities:
+
+```
+{id: 1, name: 'Västerås', county: 'Västmanland'},
+{id: 2, name: 'Karlstad', county: 'Värmland'},
+{id: 3, name: 'Borlänge', county: 'Dalarna'}
+```
+
+2. Then loop through the array of cities in an html list where you print *name - hyphen county*,<br>
+you choose whether you want to use <**ul**> unorderd-list or <**ol**> ordered-list.
+
 ### Resultat
 * Västerås - Västmanland
 * Karlstad - Värmland
 * Borlänge - Dalarna
 
-## Fråga 3 – Två-vägs-bindning
+## Fråga 3 – Två-vägs-bindning (Two-way-binding)
+### Swedish
 1. Skapa två inmatningsfält, en för förnamn och en för efternamn med hjälp av **input**-taggen.
 2. Använd två-vägs-bindning för att binda inmatningsfälten till två data variabler.
 3. Visa sedan resultatet som fullständigt namn med valfria taggar.
+
+### English
+1. Create two input fields, one for firstname and one for lastname using the **input** tag.
+2. Use two-way binding to bind the input fields to two data variables.
+3. Then display the result as a fullname with optional tags.
 
 ### Resultat
 ![Uppgift3](./assets/uppgift3.gif)
