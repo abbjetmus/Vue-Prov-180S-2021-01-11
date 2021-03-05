@@ -123,7 +123,7 @@ Your task is to change the color of the t-shirt to the color that is on the butt
 This is done by changing the background color of the div tag.
 1. Create a data variable called **color**.
 2. When you click a button, color should be updated to that color.
-Use style binding on the div tag so that it binds to the color data variable and sets the background color.
+3. Use style binding on the div tag so that it binds to the color data variable and sets the background color.
 ### Resultat
 ![Uppgift5](./assets/uppgift5.gif)
 
