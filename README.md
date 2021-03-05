@@ -83,6 +83,7 @@ you choose whether you want to use <**ul**> unorderd-list or <**ol**> ordered-li
 ![Uppgift3](./assets/uppgift3.gif)
 
 ## Fråga 4 – Watch 
+### Swedish
 1. Skapa en data variabel med namnet **id**:
 2. Skapa en Watcher som lyssnar på **id** variabeln.
 2. Skapa ett inmatningsfält med **input**-taggen. 
@@ -97,10 +98,18 @@ fetch('https://jsonplaceholder.typicode.com/photos/')
 7. Lagra sedan datat i en data variabel som heter **photo**.
 8. Presentera **photo** i html:en med lämpliga taggar.
 
+### English
+1. Create a data variable named **id**:
+2. Create a Watcher that listens to the **id** variable.
+2. Create an input field with the **input** tag.
+3. The field must be able to enter a number and two-way bind using v-model to the **id** variable.
+5. Then use the following *fetch* method in your watcher to download a photo using the **id**, you must add the id to the call e.g.
+*'https://jsonplaceholder.typicode.com/photos/1'* where id = 1. It is good to first check that id has a value as well.
 ### Resultat
 ![Uppgift4](./assets/uppgift4.gif)
 
 ## Fråga 5 – Style bindning
+### Swedish
 Du har fått en div-tagg med en t-shirt som bakgrundsbild. Under den finns det 4 knappar **buttons**.<br>
 Din uppgift är att byta färg på t-shirten till den färgen som står på knappen när man klickar på den.
 Detta görs genom att byta bakgrundsfärg på div-taggen.
@@ -108,14 +117,29 @@ Detta görs genom att byta bakgrundsfärg på div-taggen.
 2. När man klickar på en knapp ska color uppdateras till den färgen.
 3. Använd style-binding på div-taggen så att den binder till color data-variabeln och sätter bakgrundsfärgen.
 
+### English
+You have received a div tag with a t-shirt as a background image. Below it there are 4 buttons **buttons**.<br>
+Your task is to change the color of the t-shirt to the color that is on the button when you click on it.
+This is done by changing the background color of the div tag.
+1. Create a data variable called **color**.
+2. When you click a button, color should be updated to that color.
+Use style binding on the div tag so that it binds to the color data variable and sets the background color.
 ### Resultat
 ![Uppgift5](./assets/uppgift5.gif)
 
-### Fråga 6 – Slots 
+## Fråga 6 – Slots 
+
+### Swedish
 1. Skapa en komponent som heter **postcomponent**. 
 2. **postcomponent** ska ha två namngivna slots med namnen "title" och "description".
 **title** sloten ska vara en <**h1**> tagg och **description** sloten ska vara en <**p**> tagg.
 3. Använd sedan **postcomponent** i '#app'-komponenten och skicka in två <**div**> taggar via slotsen med texten *"Det här är en titel"* och *"Det här är en beskrivningen"*.
+
+### English
+1. Create a component named **postcomponent**.
+2. **postcomponent** shall have two named slots named "title" and "description".
+**title** slot should be a <**h1**> tag and **description** slot should be a <**p**> tag.
+Then use **postcomponent** in the '#app'-component and submit two <**div**> tags via the slots with the text *"This is a title"* and *"This is a description"*.
 
 ### Resultat
 
@@ -124,6 +148,7 @@ Det här är en beskrivningen
 
 
 ## Fråga 7 – Komponent kommunikation
+### Swedish
 1. Skapa en data variabel med namnet **cities** som är en **array [ ]** och innehåller fem objekt med städer:
 
 ```
@@ -143,10 +168,31 @@ Skapa också en variabel som heter **selectedCity**<br>
 selectedCity.<br>
 4. **selectedCity** ska sedan visas i html med all information.
 
+### English
+1. Create a data variable named **cities** which is a **array[ ]** and contains five objects with cities:
+
+```
+{id: 1, name: 'Västerås', county: 'Västmanland'},
+{id: 2, name: 'Karlstad', county: 'Värmland'},
+{id: 3, name: 'Borlänge', county: 'Dalarna'},
+{id: 4, name: 'Malmö', county: 'Skåne'},
+{id: 5, name: 'Helsingborg', county: 'Skåne'},
+{id: 6, name: 'Kiruna', county: 'Lappland'},
+```
+
+Also create a variable named **selectedCity** <br>
+
+2. Then create a component called **cityitem** that takes in a city as props.
+**cityitem** displays the city name along with a button next to it. <br>
+When you click on the button, the city should be sent to the parent component (app component) and assigned to
+selectedCity. <br>
+4. **selectedCity** should then be displayed in html with all information.
+
 ### Resultat
 ![Uppgift6](./assets/uppgift6.gif)
 
 ## Fråga 8 – Life-cycle-hooks
+### Swedish
 1. Skapa 3 stycken olika life-cycle-hooks.
 2. Beroende på vilken ordning som de körs när en vue-komponent laddas in i webbläsaren skriv ut från life-cycle-hooken till konsolen<br><br>
 *Jag körs först!*<br>
@@ -154,6 +200,15 @@ selectedCity.<br>
 *Jag körs sist!*<br><br>
 
 Använder du en life-cycle hook som inte körs när komponenten skapas räcker det med att den finns i koden.
+
+## English
+1. Create 3 different life-cycle hooks.
+2. Depending on the order in which they run when a vue component is loaded in the browser, print from the life-cycle hook to the console <br> <br>
+*I go first!* <br>
+*I go second!* <br>
+*I go last!* <br> <br>
+
+If you use a life-cycle hook that does not run when the component is created, it is sufficient that it is in the code.
 ### Resultat
 ![Uppgift8](./assets/Uppgift8.PNG)
 
