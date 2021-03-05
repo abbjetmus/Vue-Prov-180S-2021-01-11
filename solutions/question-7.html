@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <!-- Ta inte bort det här skriptet -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <!-- Lägg din html innanför div-taggen med id="app" -->
+    <div id="app">
+        <ol v-if="selectedCity">
+            <li>Id: {{selectedCity.id}}</li>
+            <li>Name: {{selectedCity.name}}</li>
+            <li>Län: {{selectedCity.county}}</li>
+        </ol>
+        <cityitem v-for="city in cities" @getcity="visaCity" :city="city" :key="city.id">
+        </cityitem>
+    </div>
+
+    <!-- Lägg din javascript innanför script-taggen -->
+    <script>
+        var cityitem = {
+            template: `
+                <h1>{{city.id}}: {{city.name}} - {{city.county}} <button @click="skicka">Visa Stad</button></h1>
+            `,
+            props: ['city'],
+            methods: {
+                skicka() {
+                    this.$emit('getcity', this.city)
+                }
+            }
+        }
+
+        var app = new Vue({
+            el: '#app',
+            components: {
+                cityitem
+            },
+            data: {
+                selectedCity: null,
+                cities: [{
+                    id: 1,
+                    name: 'Västerås',
+                    county: 'Västmanland'
+                }, {
+                    id: 2,
+                    name: 'Karlstad',
+                    county: 'Värmland'
+                }, {
+                    id: 3,
+                    name: 'Borlänge',
+                    county: 'Dalarna'
+                }, {
+                    id: 4,
+                    name: 'Malmö',
+                    county: 'Skåne'
+                }, {
+                    id: 5,
+                    name: 'Helsingborg',
+                    county: 'Skåne'
+                }, {
+                    id: 6,
+                    name: 'Kiruna',
+                    county: 'Lappland'
+                }]
+            },
+            methods: {
+                visaCity(value) {
+                    this.selectedCity = value
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

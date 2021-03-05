@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <!-- Ta inte bort det här skriptet -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <!-- Lägg din html innanför div-taggen med id="app" -->
+    <div id="app">
+        <div><label for="id">Ange photoId: </label><input name="id" type="number" v-model="id"></div>
+        <div v-if="photo">
+            <div>albumId: {{photo.albumId}}</div>
+            <div>id: {{photo.id}}</div>
+            <div>title: {{photo.title}}</div>
+            <div>Url: <img width="300px" height="300px" :src="photo.url"></div>
+            <div>thumbnailUrl: {{photo.thumbnailUrl}}</div>
+        </div>
+    </div>
+
+    <!-- Lägg din javascript innanför script-taggen -->
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                id: '',
+                photo: null
+            },
+            watch: {
+                id: function(val) {
+                    if (val) {
+                        fetch('https://jsonplaceholder.typicode.com/photos/' + val)
+                            .then(response => response.json())
+                            .then(json => {
+                                this.photo = json
+                            })
+                    }
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <!-- Ta inte bort det här skriptet -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <!-- Lägg din html innanför div-taggen med id="app" -->
+    <div id="app">
+        <div>
+            <label for="firstname">Förnamn:</label><input id="firstname" name="firstname" v-model="firstname" />
+            <label for="lastname">Efternamn:</label><input id="firstname" name="lastname" v-model="lastname" />
+        </div>
+        <h2>{{firstname}} {{lastname}}</h2>
+    </div>
+
+    <!-- Lägg din javascript innanför script-taggen -->
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                firstname: '',
+                lastname: ''
+            }
+        })
+    </script>
+
+</body>
+
+</html>
